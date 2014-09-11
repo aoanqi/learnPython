@@ -1,0 +1,7 @@
+学习过程中发现的Error：
+
+1.IndentationError: unindent does not match any outer indentation level
+	这个问题是由于行在缩进的时候，有时候用了Tab，有时候用了空格所致，解决方法就是统一缩进换成Tab或者都换成Space就行了。
+	上述问题往往是使用不同编辑器编辑同一个python文件便会出现，或者你从网上直接拷贝代码（代码采用不同缩进）。
+2.IndentationError: expected an indented block 
+	这个问题和上面类似，也是通过统一缩进就可以解决。
